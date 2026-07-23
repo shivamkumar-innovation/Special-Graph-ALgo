@@ -15,7 +15,7 @@ class Solution {
 		
 		priority_queue<vector<int>,vector<vector<int>>,greater<vector<int>>> p;
 		vector<int>v(V,0);
-    // use another vector(vector<pair<int>>) to store the pair of nodes that form MST.
+    // use another vector(vector<vector<int>>) to store the pair of nodes that form MST.
 		int s=0;
 		p.push({0,0,-1});
 		v[0]=0;
